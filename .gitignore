@@ -25,3 +25,23 @@ docs/superpowers/
 # Quality check artifacts
 .quality-check-report.json
 .quality-check-passed
+
+# Codex: local secret material
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+credentials.json
+service-account*.json
+service_account*.json
+secrets/
